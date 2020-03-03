@@ -40,6 +40,10 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
+export const ConditionWrapper = styled.div`
+  position: relative;
+`;
+
 export const AppWrapper = styled.div`
   overflow: hidden;
   display: flex;

@@ -15,6 +15,7 @@ import Footer from '../containers/AppClassic/Footer';
 import GlobalStyle, {
   AppWrapper,
   ContentWrapper,
+  ConditionWrapper,
 } from '../containers/AppClassic/appClassic.style';
 
 import SEO from '../components/seo';
@@ -64,9 +65,11 @@ export default () => {
           <ContentWrapper>
             <CaseStudyBanner />
             <CaseStudy_VisitorSection />
-            {innerWidth > 1100 ?
-              <FeatureSlider /> : <FeatureSliderTwo />
-            }
+            <ConditionWrapper>
+              {innerWidth > 1100 ?
+                <FeatureSlider /> : <FeatureSliderTwo />
+              }
+            </ConditionWrapper>
             <CaseStudyTestimonial />
             <JoinTrail />
           </ContentWrapper>
