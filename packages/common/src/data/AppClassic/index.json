@@ -24,19 +24,19 @@
   },
   "FEATURES_DATA": [
     {
-      "title": "Domain Registration & Web Hosting",
+      "title": "Sell more products",
       "description": "We have support team for 24/7 operation. They provide help and ongoing assistance at any time.",
       "icon": "flaticon-trophy violate",
       "animation": true
     },
     {
-      "title": "Website Design & Development",
+      "title": "Discover new customer insights",
       "description": "Transferring from another host? Our expert support team is standing by to transfer your site.",
       "icon": "flaticon-startup yellow",
       "animation": true
     },
     {
-      "title": "Dedicated Server & Cloud Hosting",
+      "title": "Generate more leads",
       "description": "LiteSpeed Web Server is a high-performance HTTP server and known for its high performance.",
       "icon": "flaticon-creative green",
       "animation": true
@@ -115,20 +115,20 @@
       {
         "id": 1,
         "icon": "flaticon-bitcoin",
-        "title": "Automatic Payouts",
-        "description": "Casinos no longer control the payout process."
+        "title": "Uptown Down Entertainment",
+        "description": "A yearlong design & marketing campaign gave this entertainment company a 20% increase in revenue."
       },
       {
         "id": 2,
         "icon": "flaticon-atom",
-        "title": "Network Effect",
-        "description": "Big player rewards with the added security and transparency provided by the blockchain."
+        "title": "Insulation Over Atlanta",
+        "description": "After a major site overall, Insulation Over Atlanta’s site jumped to page 1 in Google for their target keyword."
       },
       {
         "id": 3,
         "icon": "flaticon-money-bag",
-        "title": "Bigger Rewards Method",
-        "description": "Casinos contribute 1% of wagers to decentralised prize pool Players are incentivized to play more to win bigger rewards."
+        "title": "United Panel Corporation",
+        "description": "A total revamp of this construction company's website led to increased leads & higher consumer trust with clients, leading to more sales."
       }
     ]
   },
@@ -140,42 +140,42 @@
         "id": 1,
         "color": "#F55767",
         "icon": "../../assets/image/appClassic/featureIcon-1.svg",
-        "title": "App Development",
+        "title": "Content Creation Idea Generators",
         "description": "Get your proof tests delivered home collect a sample from the news get design."
       },
       {
         "id": 2,
         "color": "#3DABDD",
         "icon": "../../assets/image/appClassic/featureIcon-2.svg",
-        "title": "10 Times Award",
+        "title": "Integrated Sales Funnels",
         "description": "Get your proof tests delivered home collect a sample from the news get design."
       },
       {
         "id": 3,
         "color": "#D6AB00",
         "icon": "../../assets/image/appClassic/featureIcon-3.svg",
-        "title": "Cloud Storage",
+        "title": "Omni-Awareness Modules",
         "description": "Get your proof tests delivered home collect a sample from the news get design."
       },
       {
         "id": 4,
         "color": "#40975F",
         "icon": "../../assets/image/appClassic/featureIcon-4.svg",
-        "title": "Customization",
+        "title": "Cloud-Based Hosting",
         "description": "Get your proof tests delivered home collect a sample from the news get design."
       },
       {
         "id": 5,
         "color": "#5856D6",
         "icon": "../../assets/image/appClassic/featureIcon-5.svg",
-        "title": "UX Planning",
+        "title": "Client-First Copy",
         "description": "Get your proof tests delivered home collect a sample from the news get design."
       },
       {
         "id": 6,
         "color": "#E97325",
         "icon": "../../assets/image/appClassic/featureIcon-6.svg",
-        "title": "Customer Support",
+        "title": "Built-In A/B Testing",
         "description": "Get your proof tests delivered home collect a sample from the news get design."
       }
     ]
@@ -356,15 +356,15 @@
   "testimonial": [
     {
       "id": 1,
-      "name": "Jon Doe",
-      "designation": "CEO of Denish Co.",
+      "name": "Rebecca S.",
+      "designation": "Marketing Specialist at Blue Sky Exhibits",
       "comment": "Best working experience  with this amazing team & in future, we want to work together",
       "avatar_url": "../../assets/image/appClassic/denny.png"
     },
     {
       "id": 2,
-      "name": "Roman Ul Oman",
-      "designation": "Co-founder of QatarDiaries",
+      "name": "Michael S.",
+      "designation": "Lead Accountant at United Panel Corp",
       "comment": "Impressed with master class support of the team and really look forward for the future.",
       "avatar_url": "../../assets/image/appClassic/menny.png"
     }

@@ -15,7 +15,6 @@ import BannerWrapper, {
   ButtonGroup,
 } from './banner.style';
 
-import microsoft from 'common/src/assets/image/appClassic/microsoft.svg';
 import bannerImg from 'common/src/assets/image/appClassic/bannerImg.png';
 
 const Banner = () => {
@@ -23,24 +22,15 @@ const Banner = () => {
     <BannerWrapper id="home">
       <Container>
         <BannerContent>
-          <Fade up>
-            <RatingInfo>
-              <Rating rating={4} />
-              4.9 of 5 By <img src={microsoft} alt="Microsoft" />
-            </RatingInfo>
-          </Fade>
           <Fade up delay={100}>
             <Heading
               as="h1"
-              content="The Revolution of
-      Ultimate Platform to 
-      monitor your task"
+              content="Build a conversion-focused website that grows your business"
             />
           </Fade>
           <Fade up delay={200}>
             <Text
-              content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore magna
-      ipsum dolor sit amet consectetur."
+              content="Increase your client’s website conversion rates, learn from their customers’ interactions, & enable them to grow their revenue with conversion-focused web design."
             />
           </Fade>
           <Fade up delay={300}>
