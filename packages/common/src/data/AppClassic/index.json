@@ -95,17 +95,17 @@
     "carousel": [
       {
         "id": 1,
-        "image": "../../assets/image/appClassic/appSlider1.png",
+        "image": "../../assets/image/appClassic/FeatureTabImage1.png",
         "title": "App Slide 1"
       },
       {
         "id": 2,
-        "image": "../../assets/image/appClassic/appSlider2.png",
+        "image": "../../assets/image/appClassic/FeatureTabImage2.png",
         "title": "App Slide 1"
       },
       {
         "id": 3,
-        "image": "../../assets/image/appClassic/appSlider3.png",
+        "image": "../../assets/image/appClassic/FeatureTabImage3.png",
         "title": "App Slide 1"
       }
     ],
@@ -195,7 +195,7 @@
         "icon": "../../assets/image/appClassic/appTabIcon1.svg",
         "title": "Content Creation Idea Generator",
         "description": "Get your proof tests delivered home collect a sample.",
-        "image": "../../assets/image/appClassic/appTabImg1.png"
+        "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
       },
       {
         "id": 2,
@@ -203,7 +203,7 @@
         "icon": "../../assets/image/appClassic/appTabIcon2.svg",
         "title": "Integrated Sales Funnels",
         "description": "Get your proof tests delivered home collect a sample.",
-        "image": "../../assets/image/appClassic/appTabImg2.png"
+        "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
       },
       {
         "id": 3,
@@ -211,7 +211,7 @@
         "icon": "../../assets/image/appClassic/appTabIcon3.svg",
         "title": "Omni-Awareness Modules",
         "description": "Get your proof tests delivered home collect a sample.",
-        "image": "../../assets/image/appClassic/appTabImg3.png"
+        "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
       },
       {
         "id": 4,
@@ -219,7 +219,7 @@
         "icon": "../../assets/image/appClassic/appTabIcon4.svg",
         "title": "Extremely Fast Load Times",
         "description": "Get your proof tests delivered home collect a sample.",
-        "image": "../../assets/image/appClassic/appTabImg4.png"
+        "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
       },
       {
         "id": 5,
@@ -227,7 +227,7 @@
         "icon": "../../assets/image/appClassic/appTabIcon5.svg",
         "title": "Built-In A/B Testing",
         "description": "Get your proof tests delivered home collect a sample.",
-        "image": "../../assets/image/appClassic/appTabImg5.png"
+        "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
       },
       {
         "id": 6,
@@ -235,7 +235,7 @@
         "icon": "../../assets/image/appClassic/appTabIcon6.svg",
         "title": "Client-First Copy",
         "description": "Get your proof tests delivered home collect a sample.",
-        "image": "../../assets/image/appClassic/appTabImg6.png"
+        "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
       }
     ]
   },
@@ -359,14 +359,14 @@
       "name": "Rebecca S.",
       "designation": "Marketing Specialist at Blue Sky Exhibits",
       "comment": "Best working experience  with this amazing team & in future, we want to work together",
-      "avatar_url": "../../assets/image/appClassic/denny.png"
+      "avatar_url": "../../assets/image/appClassic/TestimonialImage2.png"
     },
     {
       "id": 2,
       "name": "Michael S.",
       "designation": "Lead Accountant at United Panel Corp",
       "comment": "Impressed with master class support of the team and really look forward for the future.",
-      "avatar_url": "../../assets/image/appClassic/menny.png"
+      "avatar_url": "../../assets/image/appClassic/TestimonialImage1.png"
     }
   ],
   "casestudytestimonial": [

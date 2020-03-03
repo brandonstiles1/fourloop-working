@@ -12,7 +12,7 @@ import FeatureBlock from 'common/src/components/FeatureBlock';
 import Container from 'common/src/components/UI/Container';
 import VisitorSectionWrapper, { SectionObject } from './visitor.style';
 
-import ImageOne from 'common/src/assets/image/appClassic/saasvisitor1.png';
+import ImageOne from 'common/src/assets/image/appClassic/FeatureTabImage1.png';
 import ImageBg from 'common/src/assets/image/appClassic/visitor_bg.png';
 
 const VisitorSection = ({

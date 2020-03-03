@@ -15,7 +15,7 @@ import BannerWrapper, {
   ButtonGroup,
 } from './banner.style';
 
-import bannerImg from 'common/src/assets/image/appClassic/bannerImg.png';
+import bannerImg from 'common/src/assets/image/appClassic/BannerImage.png';
 
 const Banner = () => {
   return (
