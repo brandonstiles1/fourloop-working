@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import BannerBG from 'common/src/assets/image/saasModern/banner-texture.png';
+import BannerBG from 'common/src/assets/image/appClassic/banner-texture.png';
 
 export const BannerWrapper = styled.section`
   padding: 150px 0 50px 0;
