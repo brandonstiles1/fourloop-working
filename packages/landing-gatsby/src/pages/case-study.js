@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect, Fragment } from 'react';
 import { Link } from 'gatsby';
 import { ThemeProvider } from 'styled-components';
 import { theme } from 'common/src/theme/appclassic';
@@ -18,34 +18,61 @@ import GlobalStyle, {
 } from '../containers/AppClassic/appClassic.style';
 
 import SEO from '../components/seo';
-import { typeIncompatibleAnonSpreadMessage } from 'graphql/validation/rules/PossibleFragmentSpreads';
 
+function getSize() {
+  return {
+    innerHeight: window.innerHeight,
+    innerWidth: window.innerWidth,
+    outerHeight: window.outerHeight,
+    outerWidth: window.outerWidth,
+  };
+}
 
-const SecondPage = () => (
+function useWindowSize() {
+  let [windowSize, setWindowSize] = useState(getSize());
 
-  <ThemeProvider theme={theme}>
-    <>
-      <SEO title="Fourloop.ai" />
-      <ResetCSS />
-      <GlobalStyle />
+  function handleResize() {
+    setWindowSize(getSize());
+  }
 
-      <AppWrapper>
-        <Sticky top={0} innerZ={9999} activeClass="sticky-active">
-          <Navbar />
-        </Sticky>
-        <ContentWrapper>
-          <CaseStudyBanner />
-          <CaseStudy_VisitorSection />
-          { window.innerWidth > 1100 ? 
-            <FeatureSlider /> : <FeatureSliderTwo />
-          }
-          <CaseStudyTestimonial />
-          <JoinTrail />
-        </ContentWrapper>
-        <Footer />
-      </AppWrapper>
-    </>
-  </ThemeProvider>
-);
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
 
-export default SecondPage;
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  return windowSize;
+}
+
+export default () => {
+  const size = process.browser && useWindowSize();
+  const innerWidth = process.browser && size.innerWidth;
+
+  return (
+    <ThemeProvider theme={theme}>
+      <>
+        <SEO title="Fourloop.ai Case Study" />
+        <ResetCSS />
+        <GlobalStyle />
+
+        <AppWrapper>
+          <Sticky top={0} innerZ={9999} activeClass="sticky-active">
+            <Navbar />
+          </Sticky>
+          <ContentWrapper>
+            <CaseStudyBanner />
+            <CaseStudy_VisitorSection />
+            {innerWidth > 1100 ?
+              <FeatureSlider /> : <FeatureSliderTwo />
+            }
+            <CaseStudyTestimonial />
+            <JoinTrail />
+          </ContentWrapper>
+          <Footer />
+        </AppWrapper>
+      </>
+    </ThemeProvider>
+  );
+};
