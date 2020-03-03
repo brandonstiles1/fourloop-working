@@ -4,6 +4,7 @@ import { themeGet } from 'styled-system';
 const SectionWrapper = styled.section`
   padding: 75px 0;
   overflow: hidden;
+  padding-bottom: 275px;
   .tabHeadline {
     font-weight: 400;
   }

@@ -35,8 +35,8 @@ export default function() {
             <Banner />
             <Features />
             <AppSlider />
-            <FeatureTab />
             <TestimonialSection />
+            <FeatureTab />
             <Newsletter />
             <JoinTrail />
           </ContentWrapper>

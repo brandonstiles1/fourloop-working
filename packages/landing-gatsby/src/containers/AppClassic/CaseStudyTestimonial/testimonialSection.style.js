@@ -6,7 +6,6 @@ const TestimonialSectionWrapper = styled.section`
   background-color: #f6f7fb;
   background: linear-gradient(transparent 50%, #f6f7fb);
   overflow: hidden;
-  padding-bottom: 250px;
   @media (max-width: 990px) {
     margin: 0px 0 0;
   }
