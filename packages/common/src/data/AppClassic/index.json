@@ -369,6 +369,15 @@
       "avatar_url": "../../assets/image/appClassic/menny.png"
     }
   ],
+  "casestudytestimonial": [
+    {
+      "id": 1,
+      "name": "Brandon S.",
+      "designation": "Owner, Uptown Down Entertainment",
+      "comment": "Best working experience  with this amazing team & in future, we want to work together",
+      "avatar_url": "../../assets/image/appClassic/denny.png"
+    }
+  ],
   "faq": {
     "slogan": "FREQUENT QUESTION",
     "title": "Do you have any question",

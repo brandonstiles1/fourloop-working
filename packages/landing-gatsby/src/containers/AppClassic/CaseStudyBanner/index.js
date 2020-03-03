@@ -47,33 +47,29 @@ const BannerSection = ({
           <Box {...contentWrapper}>
             <DiscountWrapper>
               <DiscountLabel>
-                <Text {...discountAmount} content="25% Save" />
                 <Text
                   {...discountText}
-                  content="for first month trail version"
+                  content="CASE STUDY"
                 />
               </DiscountLabel>
             </DiscountWrapper>
             <Heading
               {...title}
-              content="Ultimate Platform to monitor your best workflow."
+              content="Uptown Down Entertainment"
             />
             <Text
               {...description}
-              content="For Enhanced performance we use LiteSpeed Web Server, HTTP/2, PHP7. We make your website faster, which will help you to increase search ranking!"
+              content="How a conversion-focused website helped this Atlanta-based entertainment company climb the Google search rankings & grow their business"
             />
             <Box {...buttonWrapper}>
-              <a href="#1">
-                <Button {...fillButton} title="FREE TRIAL" />
-              </a>
-              <a href="#1">
+              {/* <a href="#1">
                 <Button
                   {...button}
                   title="WATCH VIDEO"
                   icon={<Icon icon={ic_play_circle_filled} size={30} />}
                   iconPosition="left"
                 />
-              </a>
+              </a> */}
             </Box>
           </Box>
           <Box {...imageWrapper}>

@@ -24,42 +24,42 @@ const images = [
   {
     original: `${Image1}`,
     thumbnail: `${Thumb1}`,
-    thumbnailLabel: 'Super Performance',
+    thumbnailLabel: 'Lightspeed Page Loads',
     originalAlt: 'slide one',
     thumbnailAlt: 'thumb one',
   },
   {
     original: `${Image2}`,
     thumbnail: `${Thumb2}`,
-    thumbnailLabel: 'Search optimization',
+    thumbnailLabel: 'Effective SEO Strategy',
     originalAlt: 'slide two',
     thumbnailAlt: 'thumb two',
   },
   {
     original: `${Image3}`,
     thumbnail: `${Thumb3}`,
-    thumbnailLabel: 'Customer Support',
+    thumbnailLabel: 'A/B Headline Testing',
     originalAlt: 'slide three',
     thumbnailAlt: 'thumb three',
   },
   {
     original: `${Image2}`,
     thumbnail: `${Thumb4}`,
-    thumbnailLabel: '100% response time',
+    thumbnailLabel: 'Built-In Leads Funnel',
     originalAlt: 'slide four',
     thumbnailAlt: 'thumb four',
   },
   {
     original: `${Image4}`,
     thumbnail: `${Thumb5}`,
-    thumbnailLabel: 'Maintaining Milestones',
+    thumbnailLabel: 'Client-First Copy',
     originalAlt: 'slide five',
     thumbnailAlt: 'thumb five',
   },
   {
     original: `${Image5}`,
     thumbnail: `${Thumb6}`,
-    thumbnailLabel: 'Organised Code',
+    thumbnailLabel: 'Omni-Aware Modules',
     originalAlt: 'slide six',
     thumbnailAlt: 'thumb six',
   },
@@ -105,7 +105,7 @@ FeatureSlider.propTypes = {
 FeatureSlider.defaultProps = {
   sectionHeader: {},
   sectionSubTitle: {
-    content: 'WHY CHOOSE US',
+    content: 'FEATURES',
     as: 'span',
     display: 'block',
     textAlign: 'center',
@@ -117,7 +117,7 @@ FeatureSlider.defaultProps = {
   },
   // section title default style
   sectionTitle: {
-    content: 'Key Features of Our App',
+    content: "What went into the new website to increase its ROI?",
     textAlign: 'center',
     fontSize: ['20px', '24px', '24px', '24px', '30px'],
     fontWeight: '400',

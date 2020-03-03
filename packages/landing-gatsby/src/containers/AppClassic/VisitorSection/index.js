@@ -41,19 +41,25 @@ const VisitorSection = ({
           <FeatureBlock
             title={
               <Heading
-                content="Make your website growth with next level visitors"
+                content="The results were pretty amazing"
                 {...title}
               />
             }
             description={
-              <Text
-                content="For Enhanced performance we use LiteSpeed Web Server, HTTP/2, PHP7. We make your website faster, which will help you to increase search ranking!."
-                {...description}
-              />
+              <>
+                <Text
+                    content="We decreased the page load speed of the site to just under 3 seconds (down from 9). We also used a custom, targeted local SEO strategy to increase the site's rankings & implemented a sales funnel to increase leads."
+                    {...description}
+                  />
+                  <Text
+                    content="The latter 2 strategies took them from Page 6 of Google to Page 1 for their targeted keywords, and increased online leads by 12%."
+                    {...description}
+                  />
+                </>
             }
             button={
               <a href="#1">
-                <Button title="HOW IT WORKS" {...btnStyle} />
+                <Button title="I WANT THIS!" {...btnStyle} />
               </a>
             }
           />
