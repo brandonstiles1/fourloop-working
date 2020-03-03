@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Mockup from 'common/src/assets/image/app/iphone-mockup.png';
+import Mockup from 'common/src/assets/image/appClassic/iphone-mockup.png';
 
 const FeatureSliderWrapper = styled.div`
   position: relative;
