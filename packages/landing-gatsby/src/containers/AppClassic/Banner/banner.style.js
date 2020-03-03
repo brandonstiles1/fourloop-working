@@ -36,8 +36,8 @@ export const BannerContent = styled.div`
 
   h1 {
     font-size: 46px;
-    line-height: 55px;
-    font-weight: 700;
+    line-height: 1em;
+    font-weight: 500;
     color: ${themeGet('colors.menu', '#0D233E')};
     margin-bottom: 24px;
     @media only screen and (max-width: 1366px) {

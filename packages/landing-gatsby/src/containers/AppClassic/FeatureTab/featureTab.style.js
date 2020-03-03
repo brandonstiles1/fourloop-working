@@ -4,6 +4,9 @@ import { themeGet } from 'styled-system';
 const SectionWrapper = styled.section`
   padding: 75px 0;
   overflow: hidden;
+  .tabHeadline {
+    font-weight: 400;
+  }
   @media only screen and (max-width: 1366px) {
     padding: 60px 0;
   }

@@ -115,7 +115,7 @@ BannerSection.defaultProps = {
   },
   title: {
     fontSize: ['24px', '32px', '40px', '42px', '46px'],
-    fontWeight: '700',
+    fontWeight: '500',
     color: '#fff',
     letterSpacing: '-0.025em',
     mb: ['20px', '25px', '25px', '25px', '25px'],
@@ -140,6 +140,7 @@ BannerSection.defaultProps = {
   discountText: {
     fontSize: ['13px', '14px', '14px', '14px', '14px'],
     fontWeight: '700',
+    letterSpacing: '1px',
     color: '#fff',
     mb: 0,
     as: 'span',

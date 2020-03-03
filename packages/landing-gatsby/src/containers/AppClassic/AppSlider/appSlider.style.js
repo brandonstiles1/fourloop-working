@@ -90,8 +90,8 @@ export const TextWrapper = styled.div`
   h2 {
     color: ${themeGet('colors.headingColor', '#0F2137')};
     font-size: 36px;
-    line-height: 44px;
-    font-weight: 700;
+    line-height: 1.2em;
+    font-weight: 500;
     margin-bottom: 20px;
     @media only screen and (max-width: 1366px) {
       font-size: 30px;

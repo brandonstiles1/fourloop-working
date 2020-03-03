@@ -45,7 +45,7 @@ const FeatureTab = () => {
         <SectionHeader>
           <Fade up>
             <Heading as="h5" content={slogan} />
-            <Heading content={title} />
+            <Heading content={title} className='tabHeadline' />
           </Fade>
         </SectionHeader>
         <Fade up delay={100}>

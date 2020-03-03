@@ -24,9 +24,9 @@ const Newsletter = ({
         <Fade up cascade>
           <NewsletterWrapper>
             <Box {...textArea}>
-              <Heading content="Subscribe our newsletter" {...title} />
+              <Heading content="Want some free tips to increase your site clicks?" {...title} />
               <Text
-                content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore"
+                content="Enter your email below to sign up for our once-weekly email with a few tips & tricks for designing a higher-converting website"
                 {...description}
               />
             </Box>
@@ -40,7 +40,7 @@ const Newsletter = ({
                   className="email_input"
                   arial-label="email"
                 />
-                <Button {...buttonStyle} title="GET ACCESS    " />
+                <Button {...buttonStyle} title="I WANT THIS" />
               </ContactFormWrapper>
             </Box>
           </NewsletterWrapper>
@@ -92,7 +92,7 @@ Newsletter.defaultProps = {
     pl: '30px',
     pr: '30px',
     colors: 'secondaryWithBg',
-    color: '#03103b',
+    color: 'white',
   },
 };
 
