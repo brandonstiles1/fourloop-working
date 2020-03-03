@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import Scrollspy from 'react-scrollspy';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -44,17 +45,17 @@ const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
           ) : (
             <>
               {drawerClose ? (
-                <AnchorLink
-                  href={menu.path}
+                <Link
+                  to={menu.path}
                   offset={menu.offset}
                   onClick={toggleDrawer}
                 >
                   {menu.label}
-                </AnchorLink>
+                </Link>
               ) : (
-                <AnchorLink href={menu.path} offset={menu.offset}>
+                <Link to={menu.path} offset={menu.offset}>
                   {menu.label}
-                </AnchorLink>
+                </Link>
               )}
             </>
           )}

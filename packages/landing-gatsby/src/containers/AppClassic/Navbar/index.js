@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 import Fade from 'react-reveal/Fade';
 import ScrollSpyMenu from 'common/src/components/ScrollSpyMenu';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -117,9 +117,9 @@ const Navbar = () => {
           </Search>
           {/* end of search */}
 
-          <AnchorLink href="#trail" offset={84}>
+          <Link to="/contact" offset={84}>
             <Button className="trail" title="Get Started" />
-          </AnchorLink>
+          </Link>
 
           <Button
             className="menubar"
@@ -143,7 +143,9 @@ const Navbar = () => {
       <MobileMenu className={`mobile-menu ${state.mobileMenu ? 'active' : ''}`}>
         <Container>
           <ScrollSpyMenu className="menu" menuItems={navMenu} offset={-84} />
-          <Button title="Get Started" />
+          <Link to='/contact'>
+            <Button title="Get Started" />
+          </Link>
         </Container>
       </MobileMenu>
       {/* end of mobile menu */}

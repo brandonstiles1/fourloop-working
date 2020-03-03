@@ -6,7 +6,7 @@ const NavbarWrapper = styled.nav`
   width: 100%;
   padding: 25px 0 26px;
   border-bottom: none;
-  background-color: #a2adb7;
+  background-color: transparent;
   position: fixed;
   z-index: 9999;
   transition: all 0.3s ease;

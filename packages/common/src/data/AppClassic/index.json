@@ -5,19 +5,19 @@
       {
         "id": 1,
         "label": "Home",
-        "path": "#home",
+        "path": "/",
         "offset": "84"
       },
       {
         "id": 2,
         "label": "Case Study",
-        "path": "#keyFeatures",
+        "path": "/case-study",
         "offset": "84"
       },
       {
         "id": 3,
         "label": "Contact",
-        "path": "#pricing",
+        "path": "/contact",
         "offset": "84"
       }
     ]
@@ -473,17 +473,17 @@
       {
         "id": 1,
         "text": "Home",
-        "link": "#"
+        "link": "/"
       },
       {
         "id": 2,
         "text": "Case Study",
-        "link": "#"
+        "link": "/case-study"
       },
       {
         "id": 3,
         "text": "Contact",
-        "link": "#"
+        "link": "/contact"
       }
     ]
   }
