@@ -55,10 +55,10 @@ const TestimonialSection = ({
   return (
     <TestimonialSectionWrapper id="testimonialSection">
       <Container>
-        <Box {...sectionHeader}>
+        {/* <Box {...sectionHeader}>
           <Text content="RESULTS" {...sectionSubTitle} />
           <Heading content="What previous clients experienced" {...sectionTitle} />
-        </Box>
+        </Box> */}
         <GlideCarousel
           options={glideOptions}
           buttonWrapperStyle={btnWrapperStyle}

@@ -3,7 +3,7 @@ import { themeGet } from 'styled-system';
 
 const JoinTrailArea = styled.div`
   width: 100%;
-  padding: 75px 0;
+  padding: 325px 0;
   overflow: hidden;
   @media only screen and (max-width: 1366px) {
     padding: 60px 0;
@@ -28,11 +28,12 @@ export const ContentWrapper = styled.div`
   }
 
   h2 {
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 6vh;
+    line-height: 1.1em;
     font-weight: 500;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     margin-bottom: 30px;
+    color: rgba(0,0,0,0.8);
     @media only screen and (max-width: 1366px) {
       font-size: 32px;
       line-height: 40px;
@@ -50,8 +51,8 @@ export const ContentWrapper = styled.div`
 
   p {
     font-size: 16px;
-    line-height: 33px;
-    color: ${themeGet('colors.textColor', 'rgba(52, 61, 72, 0.8)')};
+    line-height: 1.5em;
+    color: rgba(0,0,0,0.7);
     @media only screen and (max-width: 667px) {
       line-height: 28px;
     }
@@ -77,7 +78,9 @@ export const ButtonGroup = styled.div`
     }
     &:last-child {
       margin-right: 0;
-      color: ${themeGet('colors.headingColor', '#0F2137')};
+      color: rgba(0,0,0,0.8);
+      border: 1px black solid;
+      padding: 0 1vw;
     }
   }
 `;

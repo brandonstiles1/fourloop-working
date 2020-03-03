@@ -5,11 +5,14 @@ import searchIcon from 'common/src/assets/image/appClassic/search.svg';
 const NavbarWrapper = styled.nav`
   width: 100%;
   padding: 25px 0 26px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  background-color: ${themeGet('colors.light', '#FAFBFF')};
+  border-bottom: none;
+  background-color: #a2adb7;
   position: fixed;
   z-index: 9999;
   transition: all 0.3s ease;
+  .sticky-active{
+    background-color: blue;
+  }
   @media only screen and (max-width: 1366px) {
     padding: 20px 0 21px;
   }
@@ -28,13 +31,14 @@ const NavbarWrapper = styled.nav`
   ul {
     li {
       a {
-        color: ${themeGet('colors.menu', '#0D233E')};
+        color: rgba(255,255,255,0.8);
         font-size: 16px;
         font-weight: 400;
       }
       &.is-current {
         a {
-          color: ${themeGet('colors.primary', '#2563FF')};
+          color: white;
+          font-weight: 500;
         }
       }
     }
@@ -105,7 +109,7 @@ export const MenuArea = styled.div`
         svg {
           width: 22px;
           height: auto;
-          stroke: ${themeGet('colors.menu', '0D233E')};
+          stroke: white;
           @media only screen and (max-width: 991px) {
             width: 24px;
           }
@@ -185,7 +189,7 @@ export const MobileMenu = styled.div`
     position: absolute;
     top: 82px;
     flex-direction: column;
-    background-color: ${themeGet('colors.white', '#ffffff')};
+    background-color: #a2adb7;
     transition: all 0.3s ease;
     &.active {
       opacity: 1;

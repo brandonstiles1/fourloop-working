@@ -13,7 +13,7 @@ const NewsletterWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   margin-top: -105px;
-  margin-bottom: 125px;
+  margin-bottom: -120px;
   @media (max-width: 1220px) {
     padding: 35px 40px;
   }

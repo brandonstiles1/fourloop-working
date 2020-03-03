@@ -3,7 +3,8 @@ import { themeGet } from 'styled-system';
 
 const FooterArea = styled.footer`
   padding: 96px 0 60px;
-  margin-top: 75px;
+  padding-top: 75px;
+  border-top: 1px solid rgba(255,255,255,.8);
   background-color: ${themeGet('colors.gray', '#09142E')};
   @media only screen and (max-width: 1366px) {
     padding-top: 80px;

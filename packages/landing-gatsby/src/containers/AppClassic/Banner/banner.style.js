@@ -2,9 +2,9 @@ import styled from 'styled-components';
 import { themeGet } from 'styled-system';
 
 const BannerWrapper = styled.div`
-  padding-top: 100px;
+  padding-top: 75px;
   min-height: 802px;
-  background-color: ${themeGet('colors.light', '#FAFBFF')};
+  background-color: #a2adb7;
   overflow: hidden;
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {
     min-height: 100vh;
@@ -27,7 +27,7 @@ const BannerWrapper = styled.div`
 `;
 
 export const BannerContent = styled.div`
-  max-width: 425px;
+  max-width: 525px;
   width: 100%;
   @media only screen and (max-width: 991px) {
     flex-shrink: 0;
@@ -35,10 +35,10 @@ export const BannerContent = styled.div`
   }
 
   h1 {
-    font-size: 46px;
-    line-height: 1em;
-    font-weight: 500;
-    color: ${themeGet('colors.menu', '#0D233E')};
+    font-size: 6vh;
+    line-height: 1.1em;
+    font-weight: 400;
+    color: white;
     margin-bottom: 24px;
     @media only screen and (max-width: 1366px) {
       font-size: 32px;
@@ -48,7 +48,7 @@ export const BannerContent = styled.div`
   }
 
   p {
-    color: #6d7279;
+    color: white;
     font-size: 16px;
     line-height: 29px;
   }
@@ -102,6 +102,7 @@ export const ButtonGroup = styled.div`
     }
 
     &.text {
+      color: rgba(255,255,255,.8);
       .btn-icon {
         svg {
           width: auto;
@@ -109,7 +110,7 @@ export const ButtonGroup = styled.div`
         }
       }
       &:hover {
-        color: ${themeGet('colors.primaryHover', '#3C74FF')};
+        color: white;
       }
     }
   }

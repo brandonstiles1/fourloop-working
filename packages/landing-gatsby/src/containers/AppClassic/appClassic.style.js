@@ -49,7 +49,7 @@ export const AppWrapper = styled.div`
   .sticky-active {
     .navbar {
       padding: 20px 0 21px;
-      background-color: ${themeGet('colors.white', '#ffffff')};
+      background-color: #a2adb7;
       @media only screen and (max-width: 1366px) {
         padding: 15px 0 16px;
       }
@@ -66,6 +66,7 @@ export const FeatureItem = styled(FeatureBlock)`
   border: 1px solid #f2f4f7;
   border-radius: 5px;
   background-color: #fff;
+  height: 400px;
   transition: 0.35s ease-in-out;
   @media (max-width: 768px) and (min-width: 768px) {
     padding: 30px 20px;

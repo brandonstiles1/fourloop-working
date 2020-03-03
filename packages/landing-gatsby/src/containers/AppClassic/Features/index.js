@@ -177,9 +177,10 @@ FeatureSection.propTypes = {
 FeatureSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
-    pt: ['60px', '80px', '80px', '80px'],
+    pt: ['60px', '80px', '80px', '150px'],
     pb: ['60px', '80px', '80px', '80px'],
     id: 'feature_section',
+    backgroundColor: '#a2adb7',
   },
   secTitleWrapper: {
     mb: ['50px', '60px'],
@@ -191,15 +192,14 @@ FeatureSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#eb4d4b',
+    color: 'rgba(205,0,0,0.8)',
     mb: '10px',
   },
   secHeading: {
     textAlign: 'center',
     fontSize: ['20px', '24px'],
     fontWeight: '400',
-    color: '#0f2137',
-    letterSpacing: '-0.025em',
+    color: 'white',
     mb: '0',
   },
   row: {

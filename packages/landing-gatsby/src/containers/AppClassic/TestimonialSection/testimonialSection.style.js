@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { themeGet } from 'styled-system';
 
 const TestimonialSectionWrapper = styled.section`
-  margin: 80px 0 0;
+  margin: 50px 0 0;
   background-color: #f6f7fb;
   background: linear-gradient(transparent 50%, #f6f7fb);
   overflow: hidden; 
