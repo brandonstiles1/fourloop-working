@@ -28,7 +28,7 @@ const BannerSection = ({
   const Data = useStaticQuery(graphql`
     query {
       bannerImage: file(
-        relativePath: { eq: "image/appClassic/banner-image.png" }
+        relativePath: { eq: "image/appClassic/CaseStudyBanner.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1170, quality: 100) {

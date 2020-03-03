@@ -6,7 +6,7 @@ import { ResetCSS } from 'common/src/assets/css/style';
 import Sticky from 'react-stickynode';
 import Navbar from '../containers/AppClassic/Navbar';
 import CaseStudyBanner from '../containers/AppClassic/CaseStudyBanner';
-import VisitorSection from '../containers/AppClassic/VisitorSection';
+import CaseStudy_VisitorSection from '../containers/AppClassic/CaseStudy_VisitorSection';
 import CaseStudyTestimonial from '../containers/AppClassic/CaseStudyTestimonial';
 import FeatureSlider from '../containers/AppClassic/FeatureSlider';
 import JoinTrail from '../containers/AppClassic/JoinTrail';
@@ -31,7 +31,7 @@ const SecondPage = () => (
         </Sticky>
         <ContentWrapper>
           <CaseStudyBanner />
-          <VisitorSection />
+          <CaseStudy_VisitorSection />
           <FeatureSlider />
           <CaseStudyTestimonial />
           <JoinTrail />

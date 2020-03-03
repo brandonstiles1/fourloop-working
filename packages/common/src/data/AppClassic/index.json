@@ -25,19 +25,19 @@
   "FEATURES_DATA": [
     {
       "title": "Sell more products",
-      "description": "We have support team for 24/7 operation. They provide help and ongoing assistance at any time.",
+      "description": "A conversion-focused website speaks directly to your ideal client, making them valuable offers & asking them to take immediate actions, resulting in more leads.",
       "icon": "flaticon-trophy violate",
       "animation": true
     },
     {
       "title": "Discover new customer insights",
-      "description": "Transferring from another host? Our expert support team is standing by to transfer your site.",
+      "description": "A conversion-focused website 'studies' the behavior of your site users & allows you to make educated adjustments in order to increase click rates.",
       "icon": "flaticon-startup yellow",
       "animation": true
     },
     {
       "title": "Generate more leads",
-      "description": "LiteSpeed Web Server is a high-performance HTTP server and known for its high performance.",
+      "description": "After implementing lead funnels, client-first copy, and a re-framing of your business's value, you'll see online leads increase after launch.",
       "icon": "flaticon-creative green",
       "animation": true
     }
@@ -141,42 +141,42 @@
         "color": "#F55767",
         "icon": "../../assets/image/appClassic/featureIcon-1.svg",
         "title": "Content Creation Idea Generators",
-        "description": "Get your proof tests delivered home collect a sample from the news get design."
+        "description": ""
       },
       {
         "id": 2,
         "color": "#3DABDD",
         "icon": "../../assets/image/appClassic/featureIcon-2.svg",
         "title": "Integrated Sales Funnels",
-        "description": "Get your proof tests delivered home collect a sample from the news get design."
+        "description": ""
       },
       {
         "id": 3,
         "color": "#D6AB00",
         "icon": "../../assets/image/appClassic/featureIcon-3.svg",
         "title": "Omni-Awareness Modules",
-        "description": "Get your proof tests delivered home collect a sample from the news get design."
+        "description": ""
       },
       {
         "id": 4,
         "color": "#40975F",
         "icon": "../../assets/image/appClassic/featureIcon-4.svg",
         "title": "Cloud-Based Hosting",
-        "description": "Get your proof tests delivered home collect a sample from the news get design."
+        "description": ""
       },
       {
         "id": 5,
         "color": "#5856D6",
         "icon": "../../assets/image/appClassic/featureIcon-5.svg",
         "title": "Client-First Copy",
-        "description": "Get your proof tests delivered home collect a sample from the news get design."
+        "description": ""
       },
       {
         "id": 6,
         "color": "#E97325",
         "icon": "../../assets/image/appClassic/featureIcon-6.svg",
         "title": "Built-In A/B Testing",
-        "description": "Get your proof tests delivered home collect a sample from the news get design."
+        "description": ""
       }
     ]
   },
@@ -194,7 +194,7 @@
         "color": "#F55767",
         "icon": "../../assets/image/appClassic/appTabIcon1.svg",
         "title": "Content Creation Idea Generator",
-        "description": "Get your proof tests delivered home collect a sample.",
+        "description": "",
         "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
       },
       {
@@ -202,7 +202,7 @@
         "color": "#40975F",
         "icon": "../../assets/image/appClassic/appTabIcon2.svg",
         "title": "Integrated Sales Funnels",
-        "description": "Get your proof tests delivered home collect a sample.",
+        "description": "",
         "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
       },
       {
@@ -210,7 +210,7 @@
         "color": "#5856D6",
         "icon": "../../assets/image/appClassic/appTabIcon3.svg",
         "title": "Omni-Awareness Modules",
-        "description": "Get your proof tests delivered home collect a sample.",
+        "description": "",
         "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
       },
       {
@@ -218,7 +218,7 @@
         "color": "#D6AB00",
         "icon": "../../assets/image/appClassic/appTabIcon4.svg",
         "title": "Extremely Fast Load Times",
-        "description": "Get your proof tests delivered home collect a sample.",
+        "description": "",
         "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
       },
       {
@@ -226,7 +226,7 @@
         "color": "#E97325",
         "icon": "../../assets/image/appClassic/appTabIcon5.svg",
         "title": "Built-In A/B Testing",
-        "description": "Get your proof tests delivered home collect a sample.",
+        "description": "",
         "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
       },
       {
@@ -234,7 +234,7 @@
         "color": "#3DABDD",
         "icon": "../../assets/image/appClassic/appTabIcon6.svg",
         "title": "Client-First Copy",
-        "description": "Get your proof tests delivered home collect a sample.",
+        "description": "",
         "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
       }
     ]
@@ -375,7 +375,7 @@
       "name": "Brandon S.",
       "designation": "Owner, Uptown Down Entertainment",
       "comment": "Best working experience  with this amazing team & in future, we want to work together",
-      "avatar_url": "../../assets/image/appClassic/denny.png"
+      "avatar_url": "../../assets/image/appClassic/TestimonialImage3.png"
     }
   ],
   "faq": {

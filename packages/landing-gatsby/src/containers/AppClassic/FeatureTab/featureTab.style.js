@@ -75,9 +75,9 @@ export const TabArea = styled.div`
             padding: 15px 20px;
           }
           h3 {
-            color: ${themeGet('colors.headingColor', '#0F2137')};
-            font-size: 18px;
-            line-height: 28px;
+            color: rgba(0,0,0,.6);
+            font-size: 16px;
+            line-height: 1.2em;
             font-weight: 500;
             margin: 0 0 3px;
             @media only screen and (max-width: 1300px) {

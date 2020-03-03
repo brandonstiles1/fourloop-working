@@ -57,7 +57,7 @@ const TestimonialSection = ({
       <Container>
         <Box {...sectionHeader}>
           <Text content="RESULT" {...sectionSubTitle} />
-          <Heading content="So how did it turn out??" {...sectionTitle} />
+          <Heading content="So how did it turn out?" {...sectionTitle} />
         </Box>
         <GlideCarousel
           options={glideOptions}
@@ -138,7 +138,7 @@ TestimonialSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#10ac84',
+    color: '#EC4B50',
     mb: '10px',
   },
   // section title default style
