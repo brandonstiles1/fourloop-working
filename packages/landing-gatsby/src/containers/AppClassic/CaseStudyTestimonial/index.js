@@ -144,7 +144,7 @@ TestimonialSection.defaultProps = {
   // section title default style
   sectionTitle: {
     textAlign: 'center',
-    fontSize: ['20px', '24px'],
+    fontSize: ['4vh', '4vh'],
     fontWeight: '400',
     color: '#0f2137',
     letterSpacing: '-0.025em',

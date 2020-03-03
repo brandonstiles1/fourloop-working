@@ -8,7 +8,7 @@ export const BannerWrapper = styled.section`
   background-size: cover;
   background-position: top center;
   @media (max-width: 575px) {
-    padding: 120px 0 0 0;
+    padding: 175px 0 0 0;
   }
 
   img {

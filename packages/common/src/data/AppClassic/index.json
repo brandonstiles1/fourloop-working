@@ -22,6 +22,44 @@
       }
     ]
   },
+  "sliderTwo" : [
+    {
+      "id": 1,
+      "image": "Icon1",
+      "title": "Built-In Leads Funnel 1",
+      "image": "../../assets/image/appClassic/1.svg"
+    },
+    {
+      "id": 2,
+      "image": "Icon2",
+      "title": "Lightspeed Page Loads",
+      "image": "../../assets/image/appClassic/2.svg"
+    },
+    {
+      "id": 3,
+      "image": "Icon3",
+      "title": "Effective SEO Strategy",
+      "image": "../../assets/image/appClassic/3.svg"
+    },
+    {
+      "id": 4,
+      "image": "Icon4",
+      "title": "A/B Headline Testing",
+      "image": "../../assets/image/appClassic/4.svg"
+    },
+    {
+      "id": 5,
+      "image": "Icon5",
+      "title": "Omni-Awareness Modules",
+      "image": "../../assets/image/appClassic/5.svg"
+    },
+    {
+      "id": 6,
+      "image": "Icon6",
+      "title": "Client-First Copy",
+      "image": "../../assets/image/appClassic/6.svg"
+    }
+  ],
   "FEATURES_DATA": [
     {
       "title": "Sell more products",

@@ -9,6 +9,7 @@ import CaseStudyBanner from '../containers/AppClassic/CaseStudyBanner';
 import CaseStudy_VisitorSection from '../containers/AppClassic/CaseStudy_VisitorSection';
 import CaseStudyTestimonial from '../containers/AppClassic/CaseStudyTestimonial';
 import FeatureSlider from '../containers/AppClassic/FeatureSlider';
+import FeatureSliderTwo from '../containers/AppClassic/FeatureSliderTwo';
 import JoinTrail from '../containers/AppClassic/JoinTrail';
 import Footer from '../containers/AppClassic/Footer';
 import GlobalStyle, {
@@ -17,8 +18,11 @@ import GlobalStyle, {
 } from '../containers/AppClassic/appClassic.style';
 
 import SEO from '../components/seo';
+import { typeIncompatibleAnonSpreadMessage } from 'graphql/validation/rules/PossibleFragmentSpreads';
+
 
 const SecondPage = () => (
+
   <ThemeProvider theme={theme}>
     <>
       <SEO title="Fourloop.ai" />
@@ -32,7 +36,9 @@ const SecondPage = () => (
         <ContentWrapper>
           <CaseStudyBanner />
           <CaseStudy_VisitorSection />
-          <FeatureSlider />
+          { window.innerWidth > 1100 ? 
+            <FeatureSlider /> : <FeatureSliderTwo />
+          }
           <CaseStudyTestimonial />
           <JoinTrail />
         </ContentWrapper>

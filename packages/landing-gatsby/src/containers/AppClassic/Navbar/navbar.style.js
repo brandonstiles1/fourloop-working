@@ -29,8 +29,12 @@ const NavbarWrapper = styled.nav`
     li {
       a {
         color: rgba(255,255,255,0.8);
-        font-weight: 500;
-        font-size: 9vh;
+        font-weight: 400;
+        font-size: 2vh;
+        @media only screen and (max-width: 550px) {
+          font-size: 10vh;
+          font-weight: 600;
+        }
       }
       &.is-current {
         a {
@@ -189,7 +193,9 @@ export const MobileMenu = styled.div`
     flex-direction: column;
     background-color: #a2adb7;
     transition: all 0.3s ease;
-    .bar { color: white;}
+    .bar { 
+      color: white;
+    }
     &.active {
       opacity: 1;
       visibility: visible;
@@ -198,7 +204,7 @@ export const MobileMenu = styled.div`
     }
     .container {
       width: 100%;
-      height: 100%;
+      height: 90%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;

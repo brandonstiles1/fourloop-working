@@ -84,7 +84,7 @@ VisitorSection.defaultProps = {
     boxShadow: 'none',
   },
   title: {
-    fontSize: ['20px', '26px', '26px', '36px', '48px'],
+    fontSize: ['4vh', '4vh', '26px', '36px', '48px'],
     fontWeight: '400',
     color: '#0f2137',
     letterSpacing: '-0.010em',
@@ -94,7 +94,7 @@ VisitorSection.defaultProps = {
   },
   description: {
     fontSize: '16px',
-    color: '#343d48cc',
+    color: 'rgba(0,0,0,0.6)',
     lineHeight: '1.75',
     mb: '33px',
     maxWidth: ['100%', '100%', '100%', '440px', '440px'],

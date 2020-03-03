@@ -58,7 +58,7 @@ const TextWrapper = styled.div`
   }
 
   i {
-    color: rgba(52, 61, 72, 0.07);
+    color: rgba(255, 0, 0, 0.1);
     font-size: 70px;
     position: absolute;
     top: -40px;

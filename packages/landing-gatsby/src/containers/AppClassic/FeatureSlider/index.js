@@ -111,14 +111,14 @@ FeatureSlider.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.13em',
     fontWeight: '700',
-    color: '#1a73e8',
+    color: '#EC4B50',
     mb: '10px',
   },
   // section title default style
   sectionTitle: {
     content: "What went into the new website to increase its ROI?",
     textAlign: 'center',
-    fontSize: ['20px', '24px', '24px', '24px', '30px'],
+    fontSize: ['4vh', '4vh', '24px', '24px', '30px'],
     fontWeight: '400',
     color: '#0f2137',
     letterSpacing: '-0.025em',
