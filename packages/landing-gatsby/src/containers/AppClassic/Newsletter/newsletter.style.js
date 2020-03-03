@@ -19,6 +19,7 @@ const NewsletterWrapper = styled.div`
   }
   @media (max-width: 575px) {
     padding: 35px 20px;
+    margin-bottom: 80px;
   }
   @media (max-width: 990px) {
     flex-wrap: wrap;

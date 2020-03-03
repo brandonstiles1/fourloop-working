@@ -17,6 +17,7 @@ const VisitorSectionWrapper = styled.section`
   @media (max-width: 767px) {
     min-height: auto;
     display: block;
+    margin-top: 150px;
   }
 `;
 

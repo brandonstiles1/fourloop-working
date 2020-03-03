@@ -125,10 +125,10 @@ const Navbar = () => {
             className="menubar"
             icon={
               state.mobileMenu ? (
-                <Icon className="bar" icon={x} />
+                <Icon className="bar" icon={x} style={{color: 'white'}} />
               ) : (
                 <Fade>
-                  <Icon className="close" icon={menu} />
+                  <Icon className="close" icon={menu} style={{color: 'white'}} />
                 </Fade>
               )
             }
@@ -143,7 +143,7 @@ const Navbar = () => {
       <MobileMenu className={`mobile-menu ${state.mobileMenu ? 'active' : ''}`}>
         <Container>
           <ScrollSpyMenu className="menu" menuItems={navMenu} offset={-84} />
-          <Button title="Try for Free" />
+          <Button title="Get Started" />
         </Container>
       </MobileMenu>
       {/* end of mobile menu */}

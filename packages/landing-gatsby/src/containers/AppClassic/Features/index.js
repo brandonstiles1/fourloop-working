@@ -177,7 +177,7 @@ FeatureSection.propTypes = {
 FeatureSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
-    pt: ['60px', '80px', '80px', '150px'],
+    pt: ['100px', '80px', '80px', '150px'],
     pb: ['60px', '80px', '80px', '80px'],
     id: 'feature_section',
     backgroundColor: '#a2adb7',

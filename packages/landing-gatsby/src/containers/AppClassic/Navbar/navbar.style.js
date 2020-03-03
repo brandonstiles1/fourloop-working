@@ -10,9 +10,6 @@ const NavbarWrapper = styled.nav`
   position: fixed;
   z-index: 9999;
   transition: all 0.3s ease;
-  .sticky-active{
-    background-color: blue;
-  }
   @media only screen and (max-width: 1366px) {
     padding: 20px 0 21px;
   }
@@ -32,8 +29,8 @@ const NavbarWrapper = styled.nav`
     li {
       a {
         color: rgba(255,255,255,0.8);
-        font-size: 16px;
-        font-weight: 400;
+        font-weight: 500;
+        font-size: 9vh;
       }
       &.is-current {
         a {
@@ -95,6 +92,7 @@ export const MenuArea = styled.div`
       }
     }
   }
+
   .reusecore__button {
     border-radius: 5px;
     font-weight: 500;
@@ -191,6 +189,7 @@ export const MobileMenu = styled.div`
     flex-direction: column;
     background-color: #a2adb7;
     transition: all 0.3s ease;
+    .bar { color: white;}
     &.active {
       opacity: 1;
       visibility: visible;
@@ -212,6 +211,7 @@ export const MobileMenu = styled.div`
           padding: 13px 0;
           border-radius: 5px;
           transition: all 0.3s ease;
+          fonst-size: 5vh;
         }
         &:hover {
           a {

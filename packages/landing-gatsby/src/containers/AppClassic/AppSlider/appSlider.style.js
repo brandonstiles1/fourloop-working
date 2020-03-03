@@ -106,7 +106,7 @@ export const TextWrapper = styled.div`
     }
   }
   p {
-    color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.7);
     font-size: 16px;
     line-height: 1.5em;
     margin-bottom: 0;

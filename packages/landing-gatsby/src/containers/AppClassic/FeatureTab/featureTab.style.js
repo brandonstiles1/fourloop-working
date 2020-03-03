@@ -16,7 +16,7 @@ const SectionWrapper = styled.section`
     padding: 60px 0;
   }
   @media only screen and (max-width: 667px) {
-    padding: 45px 0;
+    padding: 75px 0 225px 0;
   }
   .container {
     > header {

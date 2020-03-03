@@ -10,7 +10,7 @@ const BannerWrapper = styled.div`
     min-height: 100vh;
   }
   @media only screen and (max-width: 480px) {
-    padding-top: 120px;
+    padding-top: 175px;
   }
   > div.container {
     display: flex;
@@ -48,7 +48,7 @@ export const BannerContent = styled.div`
   }
 
   p {
-    color: white;
+    color: rgba(255,255,255,0.7);
     font-size: 16px;
     line-height: 29px;
   }

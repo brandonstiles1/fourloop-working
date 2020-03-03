@@ -7,7 +7,7 @@ const TestimonialSectionWrapper = styled.section`
   background: linear-gradient(transparent 50%, #f6f7fb);
   overflow: hidden;
   @media (max-width: 990px) {
-    margin: 0px 0 0;
+    margin: 75px 0 0;
   }
 
   .glide {

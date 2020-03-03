@@ -8,6 +8,7 @@ const TestimonialSectionWrapper = styled.section`
   overflow: hidden; 
   @media (max-width: 990px) {
     margin: 0px 0 0;
+    padding-top: 75px;
   }
 
   .glide {
