@@ -91,7 +91,7 @@ const Navbar = () => {
           className="logo"
           href="/appclassic"
           logoSrc={logo.publicURL}
-          title="App Classic"
+          title="Fourloop.ai"
         />
         {/* end of logo */}
 
@@ -118,7 +118,7 @@ const Navbar = () => {
           {/* end of search */}
 
           <AnchorLink href="#trail" offset={84}>
-            <Button className="trail" title="Try for Free" />
+            <Button className="trail" title="Get Started" />
           </AnchorLink>
 
           <Button

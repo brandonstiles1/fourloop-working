@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 import PropTypes from 'prop-types';
 import Box from 'common/src/components/Box';
 import Text from 'common/src/components/Text';
@@ -20,28 +21,30 @@ const Newsletter = ({
   return (
     <Box {...sectionWrapper} as="section">
       <Container>
-        <NewsletterWrapper>
-          <Box {...textArea}>
-            <Heading content="Subscribe our newsletter" {...title} />
-            <Text
-              content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore"
-              {...description}
-            />
-          </Box>
-          <Box {...buttonArea}>
-            <ContactFormWrapper>
-              <Input
-                inputType="email"
-                label="Email address"
-                iconPosition="right"
-                isMaterial={true}
-                className="email_input"
-                arial-label="email"
+        <Fade up cascade>
+          <NewsletterWrapper>
+            <Box {...textArea}>
+              <Heading content="Subscribe our newsletter" {...title} />
+              <Text
+                content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore"
+                {...description}
               />
-              <Button {...buttonStyle} title="GET ACCESS    " />
-            </ContactFormWrapper>
-          </Box>
-        </NewsletterWrapper>
+            </Box>
+            <Box {...buttonArea}>
+              <ContactFormWrapper>
+                <Input
+                  inputType="email"
+                  label="Email address"
+                  iconPosition="right"
+                  isMaterial={true}
+                  className="email_input"
+                  arial-label="email"
+                />
+                <Button {...buttonStyle} title="GET ACCESS    " />
+              </ContactFormWrapper>
+            </Box>
+          </NewsletterWrapper>
+        </Fade>
       </Container>
     </Box>
   );

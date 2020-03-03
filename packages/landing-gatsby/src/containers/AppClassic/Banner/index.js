@@ -35,13 +35,13 @@ const Banner = () => {
           </Fade>
           <Fade up delay={300}>
             <ButtonGroup>
-              <Button className="primary" title="Start Free trail" />
+              <Button className="primary" title="Get Started" />
               <Button
                 className="text"
                 variant="textButton"
                 icon={<Icon icon={playCircle} />}
                 iconPosition="left"
-                title="Watch Video"
+                title="Case Study"
               />
             </ButtonGroup>
           </Fade>

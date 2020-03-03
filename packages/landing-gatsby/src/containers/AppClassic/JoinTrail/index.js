@@ -26,9 +26,6 @@ const JoinTrail = () => {
   return (
     <JoinTrailArea id="trail">
       <ContentWrapper>
-        <Fade up>
-          <Image src={logo.publicURL} alt="Slack" />
-        </Fade>
         <Fade up delay={100}>
           <Heading content={title} />
         </Fade>
@@ -37,8 +34,8 @@ const JoinTrail = () => {
         </Fade>
         <Fade up delay={300}>
           <ButtonGroup>
-            <Button title="Join with Slack" />
-            <Button title="Login with Email" variant="textButton" />
+            <Button title="Get Started" />
+            <Button title="Case Study" variant="textButton" />
           </ButtonGroup>
         </Fade>
       </ContentWrapper>

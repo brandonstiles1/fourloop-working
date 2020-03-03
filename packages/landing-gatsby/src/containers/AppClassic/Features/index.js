@@ -41,7 +41,7 @@ const FeatureSection = ({
       <Container>
         <Box {...secTitleWrapper}>
           <Fade bottom cascade>
-            <Text {...secText} content="FEATURE" />
+            <Text {...secText} content="FEATURES" />
             <Heading
               {...secHeading}
               content="How a conversion-focused site crushes your competition"
