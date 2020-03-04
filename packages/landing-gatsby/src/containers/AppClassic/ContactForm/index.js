@@ -11,7 +11,7 @@ import { Form, FormInput, FormGroup, FormTextarea } from "shards-react";
 const ContactForm = () => {
   return (
     <ContactFormStyling>
-      <Form name='mainContactForm' method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/case-study">
+      <Form name='mainContactForm' method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/success">
         <FormGroup>
           <label htmlFor="#name">Name</label>
           <FormInput id="#name" name="name" placeholder="Name" />
