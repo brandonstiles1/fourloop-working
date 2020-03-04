@@ -238,6 +238,15 @@ export const ContentWrapper = styled.div`
   overflow: hidden;
 `;
 
+export const SuccessPage = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 50vh;
+`;
+
 export const SectionHeader = styled.header`
   max-width: 352px;
   width: 100%;

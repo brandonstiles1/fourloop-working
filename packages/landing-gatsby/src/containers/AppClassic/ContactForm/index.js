@@ -11,14 +11,14 @@ import { Form, FormInput, FormGroup, FormTextarea } from "shards-react";
 const ContactForm = () => {
   return (
     <ContactFormStyling>
-      <Form name='mainContactForm' method="POST" netlify-honeypot="bot-field" data-netlify="true">
+      <Form name='mainContactForm' method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/case-study">
         <FormGroup>
           <label htmlFor="#name">Name</label>
-          <FormInput id="#name" placeholder="Name" />
+          <FormInput id="#name" name="name" placeholder="Name" />
         </FormGroup>
         <FormGroup>
           <label htmlFor="#password">Email</label>
-          <FormInput type="email" id="#email" placeholder="Email" />
+          <FormInput type="email" name='email' id="#email" placeholder="Email" />
         </FormGroup>
         <p>What kind of help do you need?'</p>
         <FormTextarea name='message' className='mt-3' />
