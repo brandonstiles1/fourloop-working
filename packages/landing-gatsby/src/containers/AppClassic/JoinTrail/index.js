@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 import Fade from 'react-reveal/Fade';
 import Image from 'common/src/components/Image';
 import Text from 'common/src/components/Text';
@@ -34,8 +34,12 @@ const JoinTrail = () => {
         </Fade>
         <Fade up delay={300}>
           <ButtonGroup>
-            <Button title="Get Started" />
-            <Button title="Case Study" variant="textButton" />
+            <Link to='/contact'>
+              <Button className='GetStartedButton' title="Get Started" style={{ color: 'white', border: 'none' }} />
+            </Link>
+            <Link to='/case-study'>
+              <Button title="Case Study" variant="textButton" />
+            </Link>
           </ButtonGroup>
         </Fade>
       </ContentWrapper>

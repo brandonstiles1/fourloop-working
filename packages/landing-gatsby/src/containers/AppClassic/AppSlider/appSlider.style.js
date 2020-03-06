@@ -128,7 +128,7 @@ export const TextWrapper = styled.div`
       }
     }
     i {
-      color: ${themeGet('colors.primary', '#2563FF')};
+      color: rgba(255,0,0, 0.5);
       font-size: 34px;
       margin-right: 22px;
     }

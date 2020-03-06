@@ -180,7 +180,6 @@ FeatureSection.defaultProps = {
     pt: ['100px', '80px', '80px', '150px'],
     pb: ['60px', '80px', '80px', '80px'],
     id: 'feature_section',
-    backgroundColor: '#a2adb7',
   },
   secTitleWrapper: {
     mb: ['50px', '60px'],
@@ -199,7 +198,7 @@ FeatureSection.defaultProps = {
     textAlign: 'center',
     fontSize: ['20px', '24px'],
     fontWeight: '400',
-    color: 'white',
+    color: '#333',
     mb: '0',
   },
   row: {

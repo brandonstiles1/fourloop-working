@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
@@ -58,9 +59,9 @@ const VisitorSection = ({
                 </>
             }
             button={
-              <a href="#1">
+              <Link to='/contact'>
                 <Button title="I WANT THIS!" {...btnStyle} />
-              </a>
+              </Link>
             }
           />
         </Box>

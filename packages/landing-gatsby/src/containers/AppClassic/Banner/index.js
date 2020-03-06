@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import Fade from 'react-reveal/Fade';
 import { Icon } from 'react-icons-kit';
 import { playCircle } from 'react-icons-kit/fa/playCircle';
@@ -6,7 +7,6 @@ import Text from 'common/src/components/Text';
 import Image from 'common/src/components/Image';
 import Button from 'common/src/components/Button';
 import Heading from 'common/src/components/Heading';
-import Rating from 'common/src/components/Rating';
 import Container from 'common/src/components/UI/Container';
 import BannerWrapper, {
   BannerContent,
@@ -35,14 +35,18 @@ const Banner = () => {
           </Fade>
           <Fade up delay={300}>
             <ButtonGroup>
-              <Button className="primary" title="Get Started" />
-              <Button
-                className="text"
-                variant="textButton"
-                icon={<Icon icon={playCircle} />}
-                iconPosition="left"
-                title="Case Study"
-              />
+              <Link to='/contact'>
+                <Button className="primary" title="Get Started" />
+              </Link>
+              <Link to='/case-study'>
+                <Button
+                  className="text"
+                  variant="textButton"
+                  icon={<Icon icon={playCircle} />}
+                  iconPosition="left"
+                  title="Case Study"
+                />
+              </Link>
             </ButtonGroup>
           </Fade>
         </BannerContent>

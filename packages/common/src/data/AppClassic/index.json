@@ -152,7 +152,7 @@
     "features": [
       {
         "id": 1,
-        "icon": "flaticon-bitcoin",
+        "icon": "flaticon-atom",
         "title": "Uptown Down Entertainment",
         "description": "A yearlong design & marketing campaign gave this entertainment company a 20% increase in revenue."
       },
@@ -164,7 +164,7 @@
       },
       {
         "id": 3,
-        "icon": "flaticon-money-bag",
+        "icon": "flaticon-atom",
         "title": "United Panel Corporation",
         "description": "A total revamp of this construction company's website led to increased leads & higher consumer trust with clients, leading to more sales."
       }
@@ -233,7 +233,7 @@
         "icon": "../../assets/image/appClassic/appTabIcon1.svg",
         "title": "Content Creation Idea Generator",
         "description": "",
-        "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
+        "image": "../../assets/image/appClassic/FeatureTabImage1.png"
       },
       {
         "id": 2,
@@ -241,7 +241,7 @@
         "icon": "../../assets/image/appClassic/appTabIcon2.svg",
         "title": "Integrated Sales Funnels",
         "description": "",
-        "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
+        "image": "../../assets/image/appClassic/FeatureTabImage1.png"
       },
       {
         "id": 3,
@@ -249,7 +249,7 @@
         "icon": "../../assets/image/appClassic/appTabIcon3.svg",
         "title": "Omni-Awareness Modules",
         "description": "",
-        "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
+        "image": "../../assets/image/appClassic/FeatureTabImage1.png"
       },
       {
         "id": 4,
@@ -257,7 +257,7 @@
         "icon": "../../assets/image/appClassic/appTabIcon4.svg",
         "title": "Extremely Fast Load Times",
         "description": "",
-        "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
+        "image": "../../assets/image/appClassic/FeatureTabImage1.png"
       },
       {
         "id": 5,
@@ -265,7 +265,7 @@
         "icon": "../../assets/image/appClassic/appTabIcon5.svg",
         "title": "Built-In A/B Testing",
         "description": "",
-        "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
+        "image": "../../assets/image/appClassic/FeatureTabImage1.png"
       },
       {
         "id": 6,
@@ -273,7 +273,7 @@
         "icon": "../../assets/image/appClassic/appTabIcon6.svg",
         "title": "Client-First Copy",
         "description": "",
-        "image": "../../assets/image/appClassic/FeatureTabImageTemplateREAL.png"
+        "image": "../../assets/image/appClassic/FeatureTabImage1.png"
       }
     ]
   },
@@ -396,23 +396,23 @@
       "id": 1,
       "name": "Rebecca S.",
       "designation": "Marketing Specialist at Blue Sky Exhibits",
-      "comment": "Best working experience  with this amazing team & in future, we want to work together",
+      "comment": "I loved the experience of working with Fourloop for some landing pages. They really helped raise our conversion rates! Awesome team!",
       "avatar_url": "../../assets/image/appClassic/TestimonialImage2.png"
     },
     {
       "id": 2,
       "name": "Michael S.",
       "designation": "Lead Accountant at United Panel Corp",
-      "comment": "Impressed with master class support of the team and really look forward for the future.",
+      "comment": "Totally loved the new site - it looks awesome, loads super fast, and we've seen an uptick in page views since its launch!",
       "avatar_url": "../../assets/image/appClassic/TestimonialImage1.png"
     }
   ],
   "casestudytestimonial": [
     {
       "id": 1,
-      "name": "Brandon S.",
-      "designation": "Owner, Uptown Down Entertainment",
-      "comment": "Best working experience  with this amazing team & in future, we want to work together",
+      "name": "Taylor C.",
+      "designation": "Co-founder, Uptown Down Entertainment",
+      "comment": "This new website totally transformed how we get clients - we're getting more online leads & seeing our clients happier & more informed.",
       "avatar_url": "../../assets/image/appClassic/TestimonialImage3.png"
     }
   ],

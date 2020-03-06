@@ -5,10 +5,10 @@ const SectionWrapper = styled.section`
   padding: 75px 0;
   overflow: hidden;
   padding-bottom: 275px;
-  background-color: #a2adb7;
+  background-color: #f3f3f3;
   .tabHeadline {
     font-weight: 400;
-    color: white;
+    color: #333;
     font-size: 4vh;
     line-height: 1em;
   }
@@ -79,7 +79,7 @@ export const TabArea = styled.div`
             padding: 15px 20px;
           }
           h3 {
-            color: rgba(255,255,255,.8);
+            color: rgba(0,0,0,.6);
             font-size: 16px;
             line-height: 1.2em;
             font-weight: 500;

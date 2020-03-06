@@ -77,6 +77,7 @@ export const FeatureItem = styled(FeatureBlock)`
   }
   @media (max-width: 575px) {
     padding: 40px 25px;
+    min-width: 85vw;
   }
 
   &:before {

@@ -61,16 +61,19 @@ export const ContentWrapper = styled.div`
 
 export const ButtonGroup = styled.div`
   margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   @media only screen and (max-width: 1366px) {
     margin-top: 40px;
   }
   @media only screen and (max-width: 667px) {
     margin-top: 30px;
+    flex-direction: column;
   }
   .reusecore__button {
     border-radius: 5px;
     text-transform: inherit;
-    margin-right: 20px;
     &:first-child {
       &:hover {
         background-color: ${themeGet('colors.primaryHover', '#3C74FF')};
@@ -79,8 +82,11 @@ export const ButtonGroup = styled.div`
     &:last-child {
       margin-right: 0;
       color: rgba(0,0,0,0.8);
-      border: 1px black solid;
+      border: 1px solid rgba(0,0,0,0.8);
       padding: 0 1vw;
+      @media only screen and (max-width: 667px) {
+        margin-top: 2vh;
+      }
     }
   }
 `;
