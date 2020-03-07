@@ -32,8 +32,8 @@ const NavbarWrapper = styled.nav`
         font-weight: 400;
         font-size: 2vh;
         @media only screen and (max-width: 550px) {
-          font-size: 10vh;
-          font-weight: 600;
+          font-size: 5vh;
+          font-weight: 400;
         }
       }
       &.is-current {
@@ -211,10 +211,11 @@ export const MobileMenu = styled.div`
     }
     ul {
       padding-bottom: 20px;
+      width: 100vw;
       li {
         a {
           display: block;
-          padding: 13px 0;
+          padding: 3px 0;
           border-radius: 5px;
           transition: all 0.3s ease;
           fonst-size: 5vh;
@@ -235,6 +236,16 @@ export const MobileMenu = styled.div`
         margin-top: 20px;
       }
     }
+  }
+`;
+
+export const MobileMenuContactBox = styled.div`
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  font-size: 2vh;
+  a {
+    color: white;
   }
 `;
 

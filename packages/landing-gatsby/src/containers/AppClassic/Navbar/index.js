@@ -9,11 +9,16 @@ import { x } from 'react-icons-kit/feather/x';
 import { search } from 'react-icons-kit/feather/search';
 import Logo from 'common/src/components/UIElements/Logo';
 import Button from 'common/src/components/Button';
+import Text from 'common/src/components/Text';
+import Box from 'common/src/components/Box';
 import Container from 'common/src/components/UI/Container';
 import useOnClickOutside from 'common/src/hooks/useOnClickOutside';
-import NavbarWrapper, { MenuArea, MobileMenu, Search } from './navbar.style';
+import NavbarWrapper, { MenuArea, MobileMenu, MobileMenuContactBox, Search } from './navbar.style';
 
-const Navbar = () => {
+const Navbar = ({
+  contactLink,
+  boxWrapper
+}) => {
   const data = useStaticQuery(graphql`
     query {
       appClassicJson {
@@ -125,12 +130,12 @@ const Navbar = () => {
             className="menubar"
             icon={
               state.mobileMenu ? (
-                <Icon className="bar" icon={x} style={{color: 'white'}} />
+                <Icon className="bar" icon={x} style={{ color: 'white' }} />
               ) : (
-                <Fade>
-                  <Icon className="close" icon={menu} style={{color: 'white'}} />
-                </Fade>
-              )
+                  <Fade>
+                    <Icon className="close" icon={menu} style={{ color: 'white' }} />
+                  </Fade>
+                )
             }
             color="#0F2137"
             variant="textButton"
@@ -143,6 +148,10 @@ const Navbar = () => {
       <MobileMenu className={`mobile-menu ${state.mobileMenu ? 'active' : ''}`}>
         <Container>
           <ScrollSpyMenu className="menu" menuItems={navMenu} offset={-84} />
+          <MobileMenuContactBox {...boxWrapper}>
+            <AnchorLink href='tel:4045133173'>404-513-3173</AnchorLink>
+            <AnchorLink href='mailto:info@fourloop.ai'> info@fourloop.ai</AnchorLink>
+          </MobileMenuContactBox>
           <Link to='/contact'>
             <Button title="Get Started" />
           </Link>
@@ -152,5 +161,16 @@ const Navbar = () => {
     </NavbarWrapper>
   );
 };
+
+Navbar.defaultProps = {
+  contactLink: {
+    color: 'red !important',
+    fontSize: '12vh'
+  },
+  boxWrapper: {
+    display: 'flex',
+    flexDirection: 'column',
+  }
+}
 
 export default Navbar;

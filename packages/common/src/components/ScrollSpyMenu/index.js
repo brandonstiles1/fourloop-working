@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import Scrollspy from 'react-scrollspy';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import { DrawerContext } from '../../contexts/DrawerContext';
 
@@ -101,6 +100,7 @@ ScrollSpyMenu.propTypes = {
 ScrollSpyMenu.defaultProps = {
   componentTag: 'ul',
   currentClassName: 'is-current',
+  width: '100vw',
 };
 
 export default ScrollSpyMenu;
