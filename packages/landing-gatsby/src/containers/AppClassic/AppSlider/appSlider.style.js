@@ -95,21 +95,17 @@ export const TextWrapper = styled.div`
     font-weight: 400;
     margin-bottom: 20px;
     @media only screen and (max-width: 1366px) {
-      font-size: 30px;
-      line-height: 42px;
       margin-bottom: 15px;
     }
     @media only screen and (max-width: 991px) {
-      font-size: 26px;
-      line-height: 38px;
       margin-bottom: 20px;
     }
   }
   p {
-    color: rgba(0,0,0,0.5);
+    color: rgba(0,0,0,0.4);
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5em;
+    font-size: 2.5vh;
+    line-height: 1.3em;
     margin-bottom: 0;
   }
   > p {
@@ -118,7 +114,7 @@ export const TextWrapper = styled.div`
   .feature__block {
     margin-top: 30px;
     h3 {
-      color: color: rgba(0,0,0,0.7);
+      color: rgba(0,0,0,0.55);
       font-size: 18px;
       line-height: 28px;
       font-weight: 500;
