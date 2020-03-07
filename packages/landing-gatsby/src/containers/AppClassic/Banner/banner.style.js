@@ -4,13 +4,14 @@ import { themeGet } from 'styled-system';
 const BannerWrapper = styled.div`
   padding-top: 75px;
   min-height: 802px;
-  background-color: #a2adb7;
+  background-color: rgba(162, 173, 183, 0.6);
   overflow: hidden;
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {
     min-height: 100vh;
   }
   @media only screen and (max-width: 480px) {
     padding-top: 175px;
+    padding-bottom: 50px;
   }
   > div.container {
     display: flex;

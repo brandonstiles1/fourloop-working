@@ -5,11 +5,11 @@ const SectionWrapper = styled.section`
   padding: 75px 0;
   overflow: hidden;
   padding-bottom: 275px;
-  background-color: #f3f3f3;
+  background-color: rgba(162, 173, 183, 0.2);
   .tabHeadline {
     font-weight: 400;
-    color: #333;
-    font-size: 4vh;
+    color: color: rgba(0,0,0,0.7);
+    font-size: 3.5vh;
     line-height: 1em;
   }
   @media only screen and (max-width: 1366px) {
@@ -20,9 +20,9 @@ const SectionWrapper = styled.section`
   }
   .container {
     > header {
-      max-width: 380px;
+      max-width: 1170px;
       @media only screen and (max-width: 480px) {
-        max-width: 280px;
+        max-width: 80vw;
       }
     }
   }
@@ -60,7 +60,7 @@ export const TabArea = styled.div`
           padding: 20px 30px;
           border-radius: 120px;
           align-items: center;
-          border: 1px solid ${themeGet('colors.borderColor', '#E8EBF1')};
+          border: 1px solid rgba(0,0,0,0.15);
           transition: border 0.3s ease;
           @media only screen and (max-width: 1220px) {
             max-width: 280px;

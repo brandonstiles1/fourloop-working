@@ -28,7 +28,7 @@ const NavbarWrapper = styled.nav`
   ul {
     li {
       a {
-        color: rgba(255,255,255,0.8);
+        color: rgba(255,255,255,0.9);
         font-weight: 400;
         font-size: 2vh;
         @media only screen and (max-width: 550px) {
@@ -191,7 +191,7 @@ export const MobileMenu = styled.div`
     position: absolute;
     top: 82px;
     flex-direction: column;
-    background-color: #a2adb7;
+    background-color: rgba(162, 173, 183, 0.6);;
     transition: all 0.3s ease;
     .bar { 
       color: white;
@@ -243,7 +243,7 @@ export const MobileMenuContactBox = styled.div`
   width: 100vw;
   display: flex;
   flex-direction: column;
-  font-size: 2vh;
+  font-size: 3vh;
   a {
     color: white;
   }

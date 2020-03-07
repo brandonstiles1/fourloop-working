@@ -196,7 +196,7 @@ FeatureSection.defaultProps = {
   },
   secHeading: {
     textAlign: 'center',
-    fontSize: ['20px', '24px'],
+    fontSize: ['3.5vh', '24px'],
     fontWeight: '400',
     color: '#333',
     mb: '0',

@@ -5,7 +5,7 @@ const FooterArea = styled.footer`
   padding: 96px 0 60px;
   padding-top: 75px;
   border-top: 1px solid rgba(255,255,255,.8);
-  background-color: ${themeGet('colors.gray', '#09142E')};
+  background-color: rgba(162, 173, 183, 0.6);
   @media only screen and (max-width: 1366px) {
     padding-top: 80px;
     margin-top: 60px;

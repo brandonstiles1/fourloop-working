@@ -5,7 +5,7 @@ import circleBg from 'common/src/assets/image/appClassic/circle-bg.svg';
 
 const SectionWrapper = styled.div`
   padding: 75px 0;
-  background-color: #a2adb7;
+  background-color: rgba(162, 173, 183, 0.2);
   @media only screen and (max-width: 1366px) {
     padding: 60px 0;
   }
@@ -89,8 +89,8 @@ export const TextWrapper = styled.div`
     margin-top: 40px;
   }
   h2 {
-    color: white;
-    font-size: 4vh;
+    color: rgba(0,0,0,0.7);
+    font-size: 3.5vh;
     line-height: 1.1em;
     font-weight: 400;
     margin-bottom: 20px;
@@ -106,7 +106,8 @@ export const TextWrapper = styled.div`
     }
   }
   p {
-    color: rgba(255,255,255,0.7);
+    color: rgba(0,0,0,0.5);
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5em;
     margin-bottom: 0;
@@ -117,7 +118,7 @@ export const TextWrapper = styled.div`
   .feature__block {
     margin-top: 30px;
     h3 {
-      color: white;
+      color: color: rgba(0,0,0,0.7);
       font-size: 18px;
       line-height: 28px;
       font-weight: 500;
@@ -128,7 +129,7 @@ export const TextWrapper = styled.div`
       }
     }
     i {
-      color: rgba(255,0,0, 0.5);
+      color: rgba(255,0,0, 0.4);
       font-size: 34px;
       margin-right: 22px;
     }
