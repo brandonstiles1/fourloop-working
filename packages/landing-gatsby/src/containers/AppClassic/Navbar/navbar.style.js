@@ -33,7 +33,7 @@ const NavbarWrapper = styled.nav`
         font-size: 16px;
         letter-spacing: -0.14px;
         @media only screen and (max-width: 550px) {
-          font-size: 5vh;
+          font-size: 7vh;
           font-weight: 400;
         }
       }
@@ -112,7 +112,8 @@ export const MenuArea = styled.div`
         svg {
           width: 22px;
           height: auto;
-          stroke: #372e2c;
+          stroke: black;
+          color: black;
           @media only screen and (max-width: 991px) {
             width: 24px;
           }
@@ -140,7 +141,7 @@ export const MenuArea = styled.div`
         svg {
           width: 27px;
           height: auto;
-          color: #372e2c;
+          color: black;
         }
       }
     }
@@ -196,7 +197,7 @@ export const MobileMenu = styled.div`
     background-color: #fafafa;
     transition: all 0.3s ease;
     .bar { 
-      color: #372e2c;
+      color: black;
     }
     &.active {
       opacity: 1;
@@ -209,7 +210,7 @@ export const MobileMenu = styled.div`
       height: 90%;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
     }
     ul {
       padding-bottom: 20px;
@@ -235,8 +236,13 @@ export const MobileMenu = styled.div`
     .reusecore__button {
       width: 100%;
       border-radius: 5px;
+      width: 85vw;
       @media only screen and (max-width: 480px) {
-        margin-top: 20px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 90px;
       }
     }
   }
