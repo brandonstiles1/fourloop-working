@@ -207,7 +207,7 @@ export const MobileMenu = styled.div`
     }
     .container {
       width: 100%;
-      height: 90%;
+      height: 80%;
       display: flex;
       flex-direction: column;
       justify-content: center;
