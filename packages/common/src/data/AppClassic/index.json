@@ -147,24 +147,24 @@
         "title": "App Slide 1"
       }
     ],
-    "title": "Check out what a conversion-focused website can do for your business",
+    "title": "What can a conversion-focused website can do for your business?",
     "description": "These are just some of the results from previous clients who've made the leap to a new, blazing-fast, lead-generating website",
     "features": [
       {
         "id": 1,
-        "icon": "flaticon-atom",
+        "icon": "flaticon-code",
         "title": "Uptown Down Entertainment",
         "description": "A yearlong design & marketing campaign gave this entertainment company a 20% increase in revenue."
       },
       {
         "id": 2,
-        "icon": "flaticon-atom",
+        "icon": "flaticon-code",
         "title": "Insulation Over Atlanta",
         "description": "After a major site overall, Insulation Over Atlanta’s site jumped to page 1 in Google for their target keyword."
       },
       {
         "id": 3,
-        "icon": "flaticon-atom",
+        "icon": "flaticon-code",
         "title": "United Panel Corporation",
         "description": "A total revamp of this construction company's website led to increased leads & higher consumer trust with clients, leading to more sales."
       }

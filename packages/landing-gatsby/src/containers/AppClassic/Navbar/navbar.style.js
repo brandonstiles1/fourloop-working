@@ -112,7 +112,7 @@ export const MenuArea = styled.div`
         svg {
           width: 22px;
           height: auto;
-          stroke: white;
+          stroke: #372e2c;
           @media only screen and (max-width: 991px) {
             width: 24px;
           }
@@ -140,6 +140,7 @@ export const MenuArea = styled.div`
         svg {
           width: 27px;
           height: auto;
+          color: #372e2c;
         }
       }
     }
@@ -192,10 +193,10 @@ export const MobileMenu = styled.div`
     position: absolute;
     top: 82px;
     flex-direction: column;
-    background-color: rgba(162, 173, 183, 1);
+    background-color: #fafafa;
     transition: all 0.3s ease;
     .bar { 
-      color: white;
+      color: #372e2c;
     }
     &.active {
       opacity: 1;
@@ -220,6 +221,7 @@ export const MobileMenu = styled.div`
           border-radius: 5px;
           transition: all 0.3s ease;
           fonst-size: 5vh;
+          color: #372e2c;
         }
         &:hover {
           a {
@@ -246,7 +248,7 @@ export const MobileMenuContactBox = styled.div`
   flex-direction: column;
   font-size: 3vh;
   a {
-    color: white;
+    color: #372e2c;
   }
 `;
 
