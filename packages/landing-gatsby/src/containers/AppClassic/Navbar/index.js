@@ -150,7 +150,7 @@ const Navbar = ({
           <ScrollSpyMenu className="menu" menuItems={navMenu} offset={-84} />
           <MobileMenuContactBox {...boxWrapper}>
             <AnchorLink href='tel:4045133173'>404-513-3173</AnchorLink>
-            <AnchorLink href='mailto:info@fourloop.ai'> info@fourloop.ai</AnchorLink>
+            <AnchorLink href='mailto:hello@fourloop.ai'> hello@fourloop.ai</AnchorLink>
           </MobileMenuContactBox>
           <Link to='/contact'>
             <Button title="Get Started" />

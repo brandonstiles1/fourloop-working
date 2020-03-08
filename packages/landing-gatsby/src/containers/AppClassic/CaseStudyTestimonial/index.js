@@ -127,7 +127,7 @@ TestimonialSection.propTypes = {
 TestimonialSection.defaultProps = {
   // section header default style
   sectionHeader: {
-    pt: '30px',
+    pt: '50px',
     mb: '56px',
   },
   // sub section default style
@@ -144,10 +144,10 @@ TestimonialSection.defaultProps = {
   // section title default style
   sectionTitle: {
     textAlign: 'center',
-    fontSize: ['4vh', '4vh'],
+    fontSize: ['4vh', '4.5vh'],
     fontWeight: '400',
-    color: '#0f2137',
-    letterSpacing: '-0.025em',
+    color: '#372e2c',
+    letterSpacing: '0',
     mb: '0',
   },
   // client comment style

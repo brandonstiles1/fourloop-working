@@ -3,10 +3,8 @@ import BannerBG from 'common/src/assets/image/appClassic/banner-texture.png';
 
 export const BannerWrapper = styled.section`
   padding: 150px 0 50px 0;
-  background-image: url(${BannerBG}),
-    linear-gradient(35deg, rgb(147, 249, 185) 0%, rgb(29, 151, 108) 100%);
-  background-size: cover;
-  background-position: top center;
+  ${'' /* background-image: url(${BannerBG}), #fafafa; */}
+  background: #fafafa;
   @media (max-width: 575px) {
     padding: 175px 0 0 0;
   }
@@ -23,12 +21,12 @@ export const DiscountWrapper = styled.div`
 `;
 
 export const DiscountLabel = styled.div`
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: inline-block;
   border-radius: 4em;
   padding: 9px 22px;
   margin-bottom: 22px;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(236, 75, 80, 0.8);
   @media (max-width: 575px) {
     padding: 7px 10px;
   }

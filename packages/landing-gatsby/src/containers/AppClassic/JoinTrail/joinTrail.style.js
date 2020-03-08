@@ -33,7 +33,7 @@ export const ContentWrapper = styled.div`
     font-weight: 500;
     letter-spacing: -1px;
     margin-bottom: 30px;
-    color: rgba(0,0,0,0.8);
+    color: #372e2c;
     @media only screen and (max-width: 1366px) {
       font-size: 32px;
       line-height: 40px;
@@ -50,9 +50,9 @@ export const ContentWrapper = styled.div`
   }
 
   p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5em;
-    color: rgba(0,0,0,0.7);
+    color: rgba(55,46,44,0.8);
     @media only screen and (max-width: 667px) {
       line-height: 28px;
     }
@@ -74,6 +74,9 @@ export const ButtonGroup = styled.div`
   .reusecore__button {
     border-radius: 5px;
     text-transform: inherit;
+    min-width: 250px;
+    margin: 0 1vw;
+    font-weight: 400;
     &:first-child {
       &:hover {
         background-color: ${themeGet('colors.primaryHover', '#3C74FF')};
@@ -84,6 +87,10 @@ export const ButtonGroup = styled.div`
       color: rgba(0,0,0,0.8);
       border: 1px solid rgba(0,0,0,0.8);
       padding: 0 1vw;
+      &:hover{
+        color: white;
+        border: none;
+      }
       @media only screen and (max-width: 667px) {
         margin-top: 2vh;
       }

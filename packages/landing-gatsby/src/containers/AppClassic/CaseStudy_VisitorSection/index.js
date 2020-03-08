@@ -42,7 +42,7 @@ const VisitorSection = ({
           <FeatureBlock
             title={
               <Heading
-                content="The results were pretty amazing"
+                content="The results were pretty amazing..."
                 {...title}
               />
             }
@@ -85,16 +85,17 @@ VisitorSection.defaultProps = {
     boxShadow: 'none',
   },
   title: {
-    fontSize: ['4vh', '4vh', '26px', '36px', '48px'],
+    fontSize: ['4vh', '4vh', '26px', '4.5vh', '4.5vh'],
     fontWeight: '400',
-    color: '#0f2137',
-    letterSpacing: '-0.010em',
+    color: '#372e2c',
+    letterSpacing: '0',
     mb: '20px',
     maxWidth: ['100%', '100%', '100%', '440px', '440px'],
     lineHeight: '1',
   },
   description: {
     fontSize: '16px',
+    fontWeight: '300',
     color: 'rgba(0,0,0,0.6)',
     lineHeight: '1.75',
     mb: '33px',
@@ -103,7 +104,7 @@ VisitorSection.defaultProps = {
   btnStyle: {
     minWidth: '156px',
     fontSize: '14px',
-    fontWeight: '500',
+    fontWeight: '400',
     color: '#fff',
     borderRadius: '4px',
     pl: '22px',

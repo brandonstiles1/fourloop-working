@@ -196,9 +196,9 @@ FeatureSection.defaultProps = {
   },
   secHeading: {
     textAlign: 'center',
-    fontSize: ['3.5vh', '24px'],
+    fontSize: ['4vh', '4.5vh'],
     fontWeight: '400',
-    color: '#333',
+    color: '#372e2c',
     mb: '0',
   },
   row: {
@@ -224,7 +224,7 @@ FeatureSection.defaultProps = {
     maxWidth: ['auto', 'auto', 'auto', '180px'],
   },
   featureItemDes: {
-    fontSize: ['14px', '14px', '14px', '15px'],
+    fontSize: ['16px', '16px', '16px', '16px'],
     lineHeight: '1.75',
     color: '#343d48cc',
     mb: ['20px', '20px', '20px', '20px'],

@@ -27,7 +27,7 @@ const Contact = ({
       <ResetCSS />
       <GlobalStyle />
 
-      <AppWrapper style={{background: '#a2adb7'}}>
+      <AppWrapper style={{background: '#fafafa'}}>
         <Sticky top={0} innerZ={9999} activeClass="sticky-active">
           <Navbar />
         </Sticky>
@@ -53,7 +53,8 @@ Contact.defaultProps = {
   heading: {
     fontWeight: '400',
     mb: '5vh',
-    color: 'white',
+    color: '#372e2c',
+    fontSize: '4.5vh',
   },
 }
 

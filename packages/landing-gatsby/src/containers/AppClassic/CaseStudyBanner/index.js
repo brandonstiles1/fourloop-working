@@ -73,7 +73,7 @@ const BannerSection = ({
             </Box>
           </Box>
           <Box {...imageWrapper}>
-            <Fade bottom>
+            <Fade up cascade>
               <Image
                 fluid={Data.bannerImage.childImageSharp.fluid}
                 alt="banner image"
@@ -114,17 +114,17 @@ BannerSection.defaultProps = {
     width: '100%',
   },
   title: {
-    fontSize: ['24px', '32px', '40px', '42px', '46px'],
-    fontWeight: '500',
-    color: '#fff',
-    letterSpacing: '-0.025em',
-    mb: ['20px', '25px', '25px', '25px', '25px'],
+    fontSize: ['24px', '32px', '40px', '4.5vh', '4.5vh'],
+    fontWeight: '400',
+    color: '#372e2c',
+    letterSpacing: '0',
+    mb: ['20px', '25px', '25px', '25px', '0px'],
     lineHeight: '1.2',
     textAlign: 'center',
   },
   description: {
     fontSize: ['15px', '16px', '16px', '16px', '16px'],
-    color: '#fff',
+    color: 'rgba(55,46,44,0.8)',
     lineHeight: '1.75',
     mb: '0',
     textAlign: 'center',

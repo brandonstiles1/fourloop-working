@@ -4,7 +4,7 @@ import { themeGet } from 'styled-system';
 const BannerWrapper = styled.div`
   padding-top: 75px;
   min-height: 802px;
-  background-color: rgba(162, 173, 183, 0.6);
+  background-color: #fafafa;
   overflow: hidden;
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {
     min-height: 100vh;
@@ -36,10 +36,10 @@ export const BannerContent = styled.div`
   }
 
   h1 {
-    font-size: 6vh;
+    font-size: 5.5vh;
     line-height: 1.1em;
     font-weight: 400;
-    color: white;
+    color: #372e2c;
     margin-bottom: 24px;
     @media only screen and (max-width: 1366px) {
       font-size: 32px;
@@ -103,7 +103,7 @@ export const ButtonGroup = styled.div`
     }
 
     &.text {
-      color: rgba(255,255,255,.8);
+      color: #a2adb7;
       .btn-icon {
         svg {
           width: auto;
@@ -111,7 +111,7 @@ export const ButtonGroup = styled.div`
         }
       }
       &:hover {
-        color: white;
+        color: red;
       }
     }
   }

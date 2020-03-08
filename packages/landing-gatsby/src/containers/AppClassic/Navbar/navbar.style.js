@@ -28,9 +28,10 @@ const NavbarWrapper = styled.nav`
   ul {
     li {
       a {
-        color: rgba(255,255,255,0.9);
+        color: #372e2c;
         font-weight: 400;
-        font-size: 2vh;
+        font-size: 16px;
+        letter-spacing: -0.14px;
         @media only screen and (max-width: 550px) {
           font-size: 5vh;
           font-weight: 400;
@@ -99,7 +100,7 @@ export const MenuArea = styled.div`
 
   .reusecore__button {
     border-radius: 5px;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: inherit;
     padding-left: 13px;
     padding-right: 13px;
@@ -191,7 +192,7 @@ export const MobileMenu = styled.div`
     position: absolute;
     top: 82px;
     flex-direction: column;
-    background-color: rgba(162, 173, 183, 0.6);;
+    background-color: rgba(162, 173, 183, 1);
     transition: all 0.3s ease;
     .bar { 
       color: white;

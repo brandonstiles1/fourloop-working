@@ -30,3 +30,5 @@ packages/reusecore
 .cache/
 now.json
 firebase.json
+# Local Netlify folder
+.netlify
